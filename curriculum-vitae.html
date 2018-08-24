@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <div>
+                <label >DUI </label> <input type="text" placeholder="048134128" pattern="[0-9]{9}">
+                <label >First Name </label> <input type="text" placeholder="First Name" pattern="[a-zA-Z]{1,10}"> 
+                <label >Last Name: </label> <input type="text" placeholder="Last Name" pattern="[a-zA-Z]{1,10}">  
+                <label>
+                    Gender
+                    <input type="radio" name = "Gender"> M
+                    <input type="radio" name = "Gender"> F
+                </label>
+            </div>
+            <div>
+                <label >Contact Number </label> <input type="text" placeholder="" pattern="[0-9]{8}">
+                <label >Birthdate </label> <input type="date">
+                <label >Civil Status </label>
+                <select>
+                    <option>Single</option>
+                    <option>Married</option>
+                    </select>
+                <label >Image </label> <input type="file">
+            </div>
+        </fieldset>
+        
+        <fieldset style="margin-top: 25px;">
+            <legend>Work Experience</legend>
+            <textarea rows="10" cols="200" placeholder="Experience"></textarea > 
+        </fieldset>
+
+        <fieldset style="margin-top: 25px;">
+            <legend>Academic Training</legend>
+            <textarea rows="10" cols="200" placeholder="Academic Training"></textarea >     
+        </fieldset>
+
+        <fieldset style="margin-top: 25px; margin-bottom: 25px;">
+            <legend>Further Training</legend>
+            <fieldset style="margin-top: 10px;">
+                <legend>Programming Languages</legend>
+                <input type="checkbox" name="check[]"> Java
+                <input type="checkbox" name="check[]"> C#
+                <input type="checkbox" name="check[]"> Python
+                <input type="checkbox" name="check[]"> C++
+                <input type="checkbox" name="check[]"> Ruby
+            </fieldset>
+            <fieldset style="margin-top: 20px;">
+            <legend>Web Technologies</legend>
+                <input type="checkbox" name="check[]"> HTML5
+                <input type="checkbox" name="check[]"> CSS/CSS3
+                <input type="checkbox" name="check[]"> materialize Css
+                <input type="checkbox" name="check[]"> Javascript
+                <input type="checkbox" name="check[]"> Node.js
+                <input type="checkbox" name="check[]"> Spring MVC
+            </fieldset>    
+        </fieldset>
+
+        <input type="submit" value="Send" > 
+        <button ><a href="index.html" style = "text-decoration: none; color: black;">Cancel</a></button > 
+    </form>
+    
+</body>
+</html>
